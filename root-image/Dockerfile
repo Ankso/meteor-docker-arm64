@@ -1,4 +1,4 @@
-FROM zodern/meteor
+FROM ankso/meteor-arm64
 LABEL maintainer="zodern"
 USER root
 RUN apt-get update && \
